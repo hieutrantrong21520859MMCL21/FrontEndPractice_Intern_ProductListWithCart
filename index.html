@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product list with cart</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <section class="items">
+
+      <header>
+
+        <h1> Desserts </h1>
+  
+      </header>
+  
+      <main>
+  
+        <!-- <div class="abc-dessert">
+          
+          <div class="img-btn">
+  
+            <picture>
+  
+              <source media="(min-width: 426px)" srcset="./assets/images/image-waffle-tablet.jpg">
+              <source media="(min-width: 769px)" srcset="./assets/images/image-waffle-desktop.jpg">
+              <img src="./assets/images/image-waffle-mobile.jpg" alt="">
+  
+            </picture>
+  
+            <button class="add-item">
+  
+              <embed src="./assets/images/icon-add-to-cart.svg"> Add to Cart
+  
+            </button>
+  
+            <div class="spinner hidden">
+              
+              <div>
+
+                <img src="./assets/images/icon-decrement-quantity.svg" alt="button-decrement" id="decrement">
+
+              </div>
+
+              <p> 1 </p>
+  
+              <div>
+
+                <img src="./assets/images/icon-increment-quantity.svg" alt="button-increment" id="increment">
+
+              </div>
+
+            </div>
+  
+          </div>
+  
+          <div class="info">
+  
+            <p class="category"> abc </p>
+            <p class="name"> abc </p>
+            <p class="price"> abc </p>
+  
+          </div>
+  
+        </div> -->
+  
+      </main>
+
+    </section>
+
+    <section class="cart">
+
+      <p>
+
+        Your Cart <span> (0) </span>
+
+      </p>
+
+      <div class="payment-area">
+
+        <img src="./assets/images/illustration-empty-cart.svg" alt="image-empty-cart">
+        <p> Your added items will appear here </p>
+
+      </div>
+
+      <div class="items-bill hidden">
+
+        <div class="statistics"></div>
+
+        <div class="total">
+
+          <p>Order Total</p>
+          <p></p>
+
+        </div>
+
+        <div class="note">
+
+          <img src="./assets/images/icon-carbon-neutral.svg" alt="icon-carbon-neutral">
+
+          <p>
+
+            This is a <span> carbon-neutral </span> delivery
+          
+          </p>
+
+        </div>
+
+        <button id="confirm"> Confirm Order </button>
+
+      </div>
+
+    </section>
+
+    <dialog>
+
+      <div class="dialog">
+
+        <img src="./assets/images/icon-order-confirmed.svg" alt="icon-order-confirmed">
+
+        <p>Order Confirmed</p>
+
+        <p>We hope you enjoy your food!</p>
+
+        <div class="bill-confirm"></div>
+
+        <button id="close">Start New Order</button>
+
+      </div>
+
+    </dialog>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
